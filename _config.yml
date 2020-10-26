@@ -1,0 +1,46 @@
+title: Elias Moser
+author: Elias Moser
+email: elias.moser@aol.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  My projects and thoughts in the web.
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl: 
+
+
+
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Elias Moser 
+  tagline: Austria / Tech 💻
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: true
+  favicon: "fav.ico"
+  showPicker: false
+  navigation: 
+    - title: Home
+      url: "/"
+
+  # generate social links in footer
+  social_links:
+    twitter: Moses7021
+    github:  EliasMoses
+    linkedIn: in/moserelias
+
+    
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# /about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
